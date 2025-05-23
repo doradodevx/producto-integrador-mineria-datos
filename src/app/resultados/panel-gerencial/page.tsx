@@ -1,5 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
+import { getImagePath } from '@/utils/imageLoader'
 
 export default function PanelGerencial() {
   return (
@@ -21,8 +22,8 @@ export default function PanelGerencial() {
           <div className="space-y-6">
             <div className="relative w-full h-[500px] bg-primary-50 rounded-lg overflow-hidden">
               <Image
-                src="/images/mineria-resultados.png"
-                alt="Resultados de la técnica de minería de datos"
+                src={getImagePath('/images/mineria-resultados.png')}
+                alt="Resultados de minería de datos"
                 fill
                 style={{ objectFit: 'contain' }}
                 className="p-4"
@@ -62,8 +63,8 @@ export default function PanelGerencial() {
           <div className="space-y-6">
             <div className="relative w-full h-[500px] bg-primary-50 rounded-lg overflow-hidden">
               <Image
-                src="/images/dashboard-avance.png"
-                alt="Dashboard mostrando métricas y avances"
+                src={getImagePath('/images/dashboard-avance.png')}
+                alt="Dashboard de avance"
                 fill
                 style={{ objectFit: 'contain' }}
                 className="p-4"

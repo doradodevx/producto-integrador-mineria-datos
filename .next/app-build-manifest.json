@@ -1,137 +1,20 @@
 {
   "pages": {
-    "/_not-found": [
-      "static/chunks/webpack-b99cb8bc6f736f47.js",
-      "static/chunks/fd9d1056-c50cb70e7323352b.js",
-      "static/chunks/69-17e60e70ff21d4bd.js",
-      "static/chunks/main-app-558b3924a4ff0e8d.js",
-      "static/chunks/app/_not-found-b07a70f2d21ffabf.js"
+    "/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/page.js"
     ],
     "/layout": [
-      "static/chunks/webpack-b99cb8bc6f736f47.js",
-      "static/chunks/fd9d1056-c50cb70e7323352b.js",
-      "static/chunks/69-17e60e70ff21d4bd.js",
-      "static/chunks/main-app-558b3924a4ff0e8d.js",
-      "static/chunks/653-d90168a3d0234640.js",
-      "static/css/97469f24d356e278.css",
-      "static/chunks/app/layout-c65a6b3aeb4c44ad.js"
-    ],
-    "/page": [
-      "static/chunks/webpack-b99cb8bc6f736f47.js",
-      "static/chunks/fd9d1056-c50cb70e7323352b.js",
-      "static/chunks/69-17e60e70ff21d4bd.js",
-      "static/chunks/main-app-558b3924a4ff0e8d.js",
-      "static/chunks/app/page-2ccb92fbc2f879b4.js"
-    ],
-    "/resultados/herramientas-analisis/page": [
-      "static/chunks/webpack-b99cb8bc6f736f47.js",
-      "static/chunks/fd9d1056-c50cb70e7323352b.js",
-      "static/chunks/69-17e60e70ff21d4bd.js",
-      "static/chunks/main-app-558b3924a4ff0e8d.js",
-      "static/chunks/749-07589735ddb5214a.js",
-      "static/chunks/app/resultados/herramientas-analisis/page-d5da7ad61ed207d7.js"
-    ],
-    "/resultados/almacen-datos/page": [
-      "static/chunks/webpack-b99cb8bc6f736f47.js",
-      "static/chunks/fd9d1056-c50cb70e7323352b.js",
-      "static/chunks/69-17e60e70ff21d4bd.js",
-      "static/chunks/main-app-558b3924a4ff0e8d.js",
-      "static/chunks/749-07589735ddb5214a.js",
-      "static/chunks/app/resultados/almacen-datos/page-0f0293c923e4df93.js"
-    ],
-    "/resultados/panel-gerencial/page": [
-      "static/chunks/webpack-b99cb8bc6f736f47.js",
-      "static/chunks/fd9d1056-c50cb70e7323352b.js",
-      "static/chunks/69-17e60e70ff21d4bd.js",
-      "static/chunks/main-app-558b3924a4ff0e8d.js",
-      "static/chunks/749-07589735ddb5214a.js",
-      "static/chunks/app/resultados/panel-gerencial/page-a41b863e780691f2.js"
-    ],
-    "/teoria/bibliografias/page": [
-      "static/chunks/webpack-b99cb8bc6f736f47.js",
-      "static/chunks/fd9d1056-c50cb70e7323352b.js",
-      "static/chunks/69-17e60e70ff21d4bd.js",
-      "static/chunks/main-app-558b3924a4ff0e8d.js",
-      "static/chunks/app/teoria/bibliografias/page-5d7d7c39c5d84c32.js"
-    ],
-    "/teoria/herramientas-etl/page": [
-      "static/chunks/webpack-b99cb8bc6f736f47.js",
-      "static/chunks/fd9d1056-c50cb70e7323352b.js",
-      "static/chunks/69-17e60e70ff21d4bd.js",
-      "static/chunks/main-app-558b3924a4ff0e8d.js",
-      "static/chunks/app/teoria/herramientas-etl/page-2c3fe1bd9c2fa95d.js"
-    ],
-    "/teoria/herramientas-mineria/page": [
-      "static/chunks/webpack-b99cb8bc6f736f47.js",
-      "static/chunks/fd9d1056-c50cb70e7323352b.js",
-      "static/chunks/69-17e60e70ff21d4bd.js",
-      "static/chunks/main-app-558b3924a4ff0e8d.js",
-      "static/chunks/app/teoria/herramientas-mineria/page-bbab1e1469916095.js"
-    ],
-    "/resultados/tecnicas-analisis/page": [
-      "static/chunks/webpack-b99cb8bc6f736f47.js",
-      "static/chunks/fd9d1056-c50cb70e7323352b.js",
-      "static/chunks/69-17e60e70ff21d4bd.js",
-      "static/chunks/main-app-558b3924a4ff0e8d.js",
-      "static/chunks/749-07589735ddb5214a.js",
-      "static/chunks/app/resultados/tecnicas-analisis/page-e32e4c17ecc08d30.js"
-    ],
-    "/teoria/mineria-datos/page": [
-      "static/chunks/webpack-b99cb8bc6f736f47.js",
-      "static/chunks/fd9d1056-c50cb70e7323352b.js",
-      "static/chunks/69-17e60e70ff21d4bd.js",
-      "static/chunks/main-app-558b3924a4ff0e8d.js",
-      "static/chunks/app/teoria/mineria-datos/page-18889eba0445acf1.js"
-    ],
-    "/teoria/inteligencia-negocios/page": [
-      "static/chunks/webpack-b99cb8bc6f736f47.js",
-      "static/chunks/fd9d1056-c50cb70e7323352b.js",
-      "static/chunks/69-17e60e70ff21d4bd.js",
-      "static/chunks/main-app-558b3924a4ff0e8d.js",
-      "static/chunks/app/teoria/inteligencia-negocios/page-66b60d36cf0acb26.js"
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/layout.css",
+      "static/chunks/app/layout.js"
     ],
     "/teoria/proceso-kdd/page": [
-      "static/chunks/webpack-b99cb8bc6f736f47.js",
-      "static/chunks/fd9d1056-c50cb70e7323352b.js",
-      "static/chunks/69-17e60e70ff21d4bd.js",
-      "static/chunks/main-app-558b3924a4ff0e8d.js",
-      "static/chunks/749-07589735ddb5214a.js",
-      "static/chunks/app/teoria/proceso-kdd/page-522bbfa628c961af.js"
-    ],
-    "/teoria/vista-minable/page": [
-      "static/chunks/webpack-b99cb8bc6f736f47.js",
-      "static/chunks/fd9d1056-c50cb70e7323352b.js",
-      "static/chunks/69-17e60e70ff21d4bd.js",
-      "static/chunks/main-app-558b3924a4ff0e8d.js",
-      "static/chunks/app/teoria/vista-minable/page-dd02495642b62ecc.js"
-    ],
-    "/teoria/olap/page": [
-      "static/chunks/webpack-b99cb8bc6f736f47.js",
-      "static/chunks/fd9d1056-c50cb70e7323352b.js",
-      "static/chunks/69-17e60e70ff21d4bd.js",
-      "static/chunks/main-app-558b3924a4ff0e8d.js",
-      "static/chunks/app/teoria/olap/page-460110b320d0a990.js"
-    ],
-    "/teoria/sociedad-informacion/page": [
-      "static/chunks/webpack-b99cb8bc6f736f47.js",
-      "static/chunks/fd9d1056-c50cb70e7323352b.js",
-      "static/chunks/69-17e60e70ff21d4bd.js",
-      "static/chunks/main-app-558b3924a4ff0e8d.js",
-      "static/chunks/app/teoria/sociedad-informacion/page-faa7444990fcec1f.js"
-    ],
-    "/teoria/tecnicas-mineria/page": [
-      "static/chunks/webpack-b99cb8bc6f736f47.js",
-      "static/chunks/fd9d1056-c50cb70e7323352b.js",
-      "static/chunks/69-17e60e70ff21d4bd.js",
-      "static/chunks/main-app-558b3924a4ff0e8d.js",
-      "static/chunks/app/teoria/tecnicas-mineria/page-0e2478a65e47594d.js"
-    ],
-    "/teoria/tareas-tecnicas/page": [
-      "static/chunks/webpack-b99cb8bc6f736f47.js",
-      "static/chunks/fd9d1056-c50cb70e7323352b.js",
-      "static/chunks/69-17e60e70ff21d4bd.js",
-      "static/chunks/main-app-558b3924a4ff0e8d.js",
-      "static/chunks/app/teoria/tareas-tecnicas/page-114673ad91049e81.js"
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/teoria/proceso-kdd/page.js"
     ]
   }
 }

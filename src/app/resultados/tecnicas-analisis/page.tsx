@@ -1,5 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
+import { getImagePath } from '@/utils/imageLoader'
 
 export default function TecnicasAnalisis() {
   return (
@@ -18,7 +19,7 @@ export default function TecnicasAnalisis() {
           <div className="space-y-6">
             <div className="relative w-full h-[500px] bg-primary-50 rounded-lg overflow-hidden">
               <Image
-                src="/images/categorizacion-mineria.png"
+                src={getImagePath('/images/categorizacion-mineria.png')}
                 alt="Análisis de categorización de minería de datos"
                 fill
                 style={{ objectFit: 'contain' }}
@@ -59,7 +60,7 @@ export default function TecnicasAnalisis() {
           <div className="space-y-6">
             <div className="relative w-full h-[500px] bg-primary-50 rounded-lg overflow-hidden">
               <Image
-                src="/images/prediccion-mineria.png"
+                src={getImagePath('/images/prediccion-mineria.png')}
                 alt="Análisis predictivo de minería de datos"
                 fill
                 style={{ objectFit: 'contain' }}

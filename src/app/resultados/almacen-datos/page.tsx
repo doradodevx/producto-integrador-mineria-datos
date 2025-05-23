@@ -1,5 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
+import { getImagePath } from '@/utils/imageLoader'
 
 export default function AlmacenDatos() {
   return (
@@ -20,8 +21,8 @@ export default function AlmacenDatos() {
           <div className="space-y-6">
             <div className="relative w-full h-[600px] bg-primary-50 rounded-lg overflow-hidden">
               <Image
-                src="/images/database-schema.png"
-                alt="Diagrama del esquema de la base de datos"
+                src={getImagePath('/images/database-schema.png')}
+                alt="Esquema de la base de datos"
                 fill
                 style={{ objectFit: 'contain' }}
                 className="p-4"
@@ -37,8 +38,8 @@ export default function AlmacenDatos() {
           <div className="space-y-6">
             <div className="relative w-full h-[600px] bg-primary-50 rounded-lg overflow-hidden">
               <Image
-                src="/images/entidad-relacion.png"
-                alt="Diagrama del esquema de la base de datos"
+                src={getImagePath('/images/entidad-relacion.png')}
+                alt="Diagrama entidad relación"
                 fill
                 style={{ objectFit: 'contain' }}
                 className="p-4"

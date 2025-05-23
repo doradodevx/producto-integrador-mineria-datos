@@ -1,5 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
+import { getImagePath } from '@/utils/imageLoader'
 
 export default function HerramientasAnalisis() {
   return (
@@ -21,8 +22,8 @@ export default function HerramientasAnalisis() {
           <div className="space-y-6">
             <div className="relative w-full h-[500px] bg-primary-50 rounded-lg overflow-hidden">
               <Image
-                src="/images/postgresql-interface.png"
-                alt="Interfaz de PostgreSQL mostrando la estructura de la base de datos"
+                src={getImagePath('/images/postgresql-interface.png')}
+                alt="Interfaz de PostgreSQL"
                 fill
                 style={{ objectFit: 'contain' }}
                 className="p-4"
@@ -62,8 +63,8 @@ export default function HerramientasAnalisis() {
           <div className="space-y-6">
             <div className="relative w-full h-[500px] bg-primary-50 rounded-lg overflow-hidden">
               <Image
-                src="/images/data-management.png"
-                alt="Interfaz de gestión de datos mostrando registros de clientes"
+                src={getImagePath('/images/data-management.png')}
+                alt="Gestión de datos"
                 fill
                 style={{ objectFit: 'contain' }}
                 className="p-4"

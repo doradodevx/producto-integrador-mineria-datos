@@ -1,4 +1,6 @@
+import React from 'react'
 import Image from 'next/image'
+import { getImagePath } from '@/utils/imageLoader'
 
 export default function ProcesoKDD() {
   return (
@@ -165,10 +167,11 @@ export default function ProcesoKDD() {
           </h2>
           <div className="relative w-full aspect-video">
             <Image
-              src="/images/proceso-kdd-diagram.png"
-              alt="Diagrama del Proceso KDD"
+              src={getImagePath('/images/proceso-kdd-diagram.png')}
+              alt="Diagrama del proceso KDD"
               fill
-              className="object-contain rounded-lg"
+              style={{ objectFit: 'contain' }}
+              className="p-4"
             />
           </div>
           <p className="text-primary-600 text-center mt-4">

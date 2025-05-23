@@ -1,19 +1,4 @@
 {
-  "/_not-found": "app/_not-found.js",
   "/page": "app/page.js",
-  "/resultados/herramientas-analisis/page": "app/resultados/herramientas-analisis/page.js",
-  "/resultados/almacen-datos/page": "app/resultados/almacen-datos/page.js",
-  "/resultados/panel-gerencial/page": "app/resultados/panel-gerencial/page.js",
-  "/teoria/bibliografias/page": "app/teoria/bibliografias/page.js",
-  "/teoria/herramientas-etl/page": "app/teoria/herramientas-etl/page.js",
-  "/teoria/herramientas-mineria/page": "app/teoria/herramientas-mineria/page.js",
-  "/resultados/tecnicas-analisis/page": "app/resultados/tecnicas-analisis/page.js",
-  "/teoria/mineria-datos/page": "app/teoria/mineria-datos/page.js",
-  "/teoria/inteligencia-negocios/page": "app/teoria/inteligencia-negocios/page.js",
-  "/teoria/proceso-kdd/page": "app/teoria/proceso-kdd/page.js",
-  "/teoria/vista-minable/page": "app/teoria/vista-minable/page.js",
-  "/teoria/olap/page": "app/teoria/olap/page.js",
-  "/teoria/sociedad-informacion/page": "app/teoria/sociedad-informacion/page.js",
-  "/teoria/tecnicas-mineria/page": "app/teoria/tecnicas-mineria/page.js",
-  "/teoria/tareas-tecnicas/page": "app/teoria/tareas-tecnicas/page.js"
+  "/teoria/proceso-kdd/page": "app/teoria/proceso-kdd/page.js"
 }
